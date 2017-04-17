@@ -8,15 +8,15 @@
 //#define DEBUGPIN 2
 
 //DPLUS and DMINUS are not actually used except for setting things up.
-#define DPLUS 5
+#define DPLUS 14
 #define DMINUS 4
 
 //This is what's used in the assembly
 #define DMINUSBASE DMINUS  //Must be D- first, then D+ second.
 
-#define PERIPHSDPLUS    PERIPHS_IO_MUX_GPIO5_U
+#define PERIPHSDPLUS    PERIPHS_IO_MUX_MTMS_U
 #define PERIPHSDMINUS   PERIPHS_IO_MUX_GPIO4_U
-#define FUNCDPLUS  FUNC_GPIO5
+#define FUNCDPLUS  FUNC_GPIO14
 #define FUNCDMINUS FUNC_GPIO4
 
 #endif
